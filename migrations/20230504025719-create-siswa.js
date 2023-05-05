@@ -17,6 +17,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       img:{
+        allowNull: true,
         type: Sequelize.STRING
       },
       kelasId: {

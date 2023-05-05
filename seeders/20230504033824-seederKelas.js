@@ -8,15 +8,15 @@ module.exports = {
     [
       {
         namaKelas : 'XI PPLG 2',
-        namaWalas : 'Nahla Naufan'
+        Walas : 1
       },
       {
         namaKelas : 'XI PPLG 1',
-        namaWalas : 'Bu Shinta'
+        Walas : 1
       },
       {
         namaKelas : 'XI ANIMASI 4',
-        namaWalas : 'Ibu Guru'
+        Walas : 1
       },
     ])
 

@@ -16,9 +16,6 @@ module.exports = {
       email: {
         type: Sequelize.STRING
       },
-      kelasId: {
-        type: Sequelize.UUID
-      },
       password: {
         allowNull: true,
         type: Sequelize.STRING
