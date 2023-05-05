@@ -12,6 +12,9 @@ module.exports = {
       nama_pelanggaran: {
         type: Sequelize.STRING
       },
+      ket_pelanggaran: {
+        type: Sequelize.STRING
+      },
       poin: {
         type: Sequelize.INTEGER
       },

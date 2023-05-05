@@ -18,6 +18,12 @@ module.exports = {
       id_user: {
         type: Sequelize.UUID
       },
+      keterangan: {
+        type: Sequelize.STRING
+      },
+      img: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

@@ -13,6 +13,9 @@ module.exports = (sequelize, DataTypes) => {
       Siswa.belongsTo(models.Kelas,{
         foreignKey: 'kelasId'
       })
+      Siswa.hasMany(models.pelanggaran_siswa_user, {
+        foreignKey: 'id_siswa'
+      })
     }
   }
   Siswa.init({

@@ -15,14 +15,16 @@ module.exports = (sequelize, DataTypes) => {
       User.hasOne(models.Kelas, {
         foreignKey: "Walas"
       })
+      User.hasMany(models.pelanggaran_siswa_user, {
+        foreignKey: 'id_user'
+      })
     }
   }
   User.init({
     name: DataTypes.STRING,
     email: DataTypes.STRING,
-    level: DataTypes.STRING,
     password: DataTypes.STRING,
-
+    level: DataTypes.STRING,
   }, {
     sequelize,
     modelName: 'User',

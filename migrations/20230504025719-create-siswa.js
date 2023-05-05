@@ -16,6 +16,9 @@ module.exports = {
       nisn:{
         type: Sequelize.STRING
       },
+      img:{
+        type: Sequelize.STRING
+      },
       kelasId: {
         type: Sequelize.UUID
       },
