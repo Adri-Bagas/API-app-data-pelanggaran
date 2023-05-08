@@ -30,7 +30,8 @@ module.exports = (sequelize, DataTypes) => {
     img: DataTypes.STRING,
   }, {
     sequelize,
-    modelName: 'pelanggaran_siswa_user',
+    modelName: 'CatPelSiswa',
+    tableName: 'pelanggaran_siswa_users'
   });
   return pelanggaran_siswa_user;
 };

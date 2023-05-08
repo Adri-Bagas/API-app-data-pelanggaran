@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
       User.hasOne(models.Kelas, {
         foreignKey: "Walas"
       })
-      User.hasMany(models.pelanggaran_siswa_user, {
+      User.hasMany(models.CatPelSiswa, {
         foreignKey: 'id_user'
       })
     }
