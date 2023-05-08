@@ -47,6 +47,11 @@ module.exports = {
         nama: 'Fauzan',
         kelasId: 3,
       },
+
+      {
+        nama: 'Zahra Aulia',
+        kelasId: 3,
+      },
     ])
   },
 
